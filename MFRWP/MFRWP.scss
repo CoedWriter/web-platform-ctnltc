@@ -1,0 +1,486 @@
+$fontsite: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  'Helvetica Neue', Arial, sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $fontsite;
+}
+
+nav {
+  box-shadow: 0px -5px 8px gray;
+
+  #checkbtn {
+    display: none;
+    font-size: 40px;
+    margin: 20px;
+  }
+
+  img {
+    margin: 30px 30px 0px 30px;
+  }
+
+  div.navbartext {
+    display: none;
+
+    div.icons {
+      display: none;
+    }
+  }
+
+  ul {
+    // :hover {
+    //     background-color: #6588ff;
+    // }
+
+    // height: 100vh;
+    li {
+      padding: 25px;
+      list-style-type: none;
+      text-align: center;
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 10px;
+
+        .active {
+          border-bottom: 1px solid #6588ff;
+        }
+      }
+    }
+  }
+}
+
+.slider-images {
+  background-image: url(https://livedemo00.template-help.com/wt_51694/images/slider-1-slide-6-1770x742.jpg);
+  width: 100%;
+  height: auto;
+  padding: 50px 50px;
+
+  .awardwinner {
+    text-align: center;
+    font-size: 46px;
+    line-height: 59px;
+  }
+
+  .we_team {
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  button {
+    padding: 17px 33px;
+    background-color: #6689ff;
+    border: none;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.section-2 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+}
+
+.card-section {
+  display: flex;
+  padding: 25px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .card-1 {
+    background: white;
+    padding: 20px 45px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    margin: 35px;
+    font-size: 30px;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+
+    p {
+      font-size: 16px;
+      margin-top: 35px;
+      font-weight: 500;
+    }
+
+    .icon-card1 {
+      font-size: 50px;
+    }
+
+    .arrow {
+      display: block;
+      height: 100%;
+      width: 100px;
+      color: gray;
+    }
+
+    hr {
+      margin-top: 40px;
+      border: 1px solid rgb(220, 218, 218);
+    }
+
+    button {
+      padding: 17px 33px;
+
+      background-color: #6689ff;
+      border: none;
+      text-align: center;
+      margin: auto;
+      justify-content: center;
+      display: flex;
+      margin-top: 50px;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
+
+.blue-image {
+  background-image: url(https://livedemo00.template-help.com/wt_51694/images/parallax-1.jpg);
+  min-height: 350px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  .blue-image-under {
+    height: auto;
+    width: 50%;
+    margin-right: 20px;
+    // background-color: red;
+
+    h3 {
+      text-align: right;
+      line-height: 50px;
+      margin-right: 20px;
+      margin-bottom: 15px;
+      font-size: 30px;
+    }
+
+    p {
+      text-align: right;
+      margin-right: 20px;
+      line-height: 25px;
+    }
+
+    .btn {
+      margin: 20px 10px 10px 10px;
+      text-align: end;
+
+      .btn1 {
+        border: none;
+        font-size: 20px;
+        color: white;
+        margin: 0px 20px 20px 20px;
+        background-color: #6588ff;
+        padding: 15px;
+      }
+
+      button {
+        border: 2px solid white;
+        font-size: 20px;
+        color: white;
+        margin: 0px 20px 20px 20px;
+        background: none;
+        padding: 15px;
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.latestProjects {
+  // background-color: red;
+  text-align: center;
+
+  h4 {
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 0;
+  }
+
+  p {
+    font-size: 20px;
+    // padding: 0px 0px 0 40px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  button {
+    padding: 15px 40px;
+    font-size: 23px;
+    margin: 30px;
+    background: none;
+    border: 2px solid black;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.featuresMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .content_box {
+    height: 350px;
+    width: 400px;
+    margin: 10px;
+
+    .content_image {
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 100%;
+      max-width: 100%;
+      align-items: flex-end;
+      justify-content: center;
+      display: flex;
+
+      .title_content {
+        font-size: 25px;
+        display: flex;
+        background-color: #ffff;
+
+        :hover {
+          color: #6588ff;
+        }
+
+        a {
+          text-decoration: none;
+          color: #000;
+        }
+
+        i {
+          font-size: 54px;
+          margin: -23px 10px;
+        }
+
+        h4 {
+          margin: 3px 10px 7px 1px;
+
+          :hover {
+            color: #98aae8;
+          }
+
+          a {
+            color: #6689ff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.business_statistics {
+  .business_statistics_text_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .ten {
+      padding: 0px 30px 30px 30p;
+
+      :hover {
+        font-variation-settings: 'wght' 100, 'ital' 0;
+        text-shadow: none;
+      }
+
+      main {
+        transition: all 0.5s;
+        -webkit-text-stroke: 4px #6689ff;
+        font-variation-settings: 'wght' 900, 'ital' 1;
+        font-size: 20rem;
+        text-align: center;
+        color: transparent;
+        font-family: 'Meta', sans-serif;
+        text-shadow: 10px 10px 0px #d7f4f3, 15px 15px 0px #6689ff,
+          20px 20px 0px #98aae8, 25px 25px 0px #99d2ce, 45px 45px 10px #d6f4f4;
+        cursor: pointer;
+        margin-right: 50px;
+      }
+    }
+
+    .experience {
+      font-size: 70px;
+      width: 300px;
+      margin: 15px 20px 0px 0px;
+      border-left: 3px solid gray;
+      padding-left: 40px;
+    }
+
+    .bs_under_text {
+      color: gray;
+      padding: 20px;
+      margin: 10px 18px;
+      width: 300px;
+    }
+
+    button {
+      margin: 0px 40px 10px;
+      font-size: 15px;
+      padding: 15px;
+      background-color: #6689ff;
+      border: none;
+
+      :hover {
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        background: white;
+        border: 2px solid #000;
+        padding: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 912px) {
+  nav {
+    #check:checked ~ ul {
+      left: 0;
+    }
+
+    img {
+      margin: 15px 15px 0px 0px;
+    }
+
+    #checkbtn {
+      display: inline-block;
+    }
+
+    div.navbartext {
+      // background-color: red;
+      // display: block;
+      width: 70%;
+
+      .navul {
+        ul {
+          #shareicon {
+            display: none;
+          }
+
+          // THIS IS WHERE THE PROBLEM IS, WHY THE MENU BAR IS NOT CLICKABLE SEE
+
+          // background-color: red;
+          width: 70%;
+          height: 100vh;
+          // background-color: green;
+          // left: -60%;
+          position: fixed;
+          // transition: 0.5s;
+
+          :hover {
+            background-color: #6588ff;
+
+            a {
+              color: white;
+            }
+          }
+
+          .active {
+            background-color: #6588ff;
+
+            a {
+              color: white;
+            }
+          }
+        }
+      }
+
+      div.icons {
+        // display: inline-block;
+        width: 100%;
+        font-size: 20px;
+        padding: 30px;
+        margin: 0 10px 0px 0px;
+        border-bottom: 2px solid rgb(158, 157, 157);
+
+        :hover {
+          color: #6588ff;
+        }
+
+        i {
+          width: 40px;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 912px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+    div.LogoBar {
+      display: inline;
+      margin-right: -26px;
+    }
+
+    div.navbartext {
+      display: inline;
+      max-width: fit-content;
+
+      #active {
+        border-bottom: 2px solid #6588ff;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+
+        i {
+          margin: 20px 50px 10px 0px;
+          color: black;
+        }
+
+        li {
+          :hover {
+            border-bottom: 2px solid #6588ff;
+          }
+        }
+      }
+    }
+  }
+}

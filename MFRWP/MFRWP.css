@@ -1,0 +1,392 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+}
+
+nav {
+  box-shadow: 0px -5px 8px gray;
+}
+nav #checkbtn {
+  display: none;
+  font-size: 40px;
+  margin: 20px;
+}
+nav img {
+  margin: 30px 30px 0px 30px;
+}
+nav div.navbartext {
+  display: none;
+}
+nav div.navbartext div.icons {
+  display: none;
+}
+nav ul li {
+  padding: 25px;
+  list-style-type: none;
+  text-align: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+nav ul li a .active {
+  border-bottom: 1px solid #6588ff;
+}
+
+.slider-images {
+  background-image: url(https://livedemo00.template-help.com/wt_51694/images/slider-1-slide-6-1770x742.jpg);
+  width: 100%;
+  height: auto;
+  padding: 50px 50px;
+}
+.slider-images .awardwinner {
+  text-align: center;
+  font-size: 46px;
+  line-height: 59px;
+}
+.slider-images .we_team {
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+}
+.slider-images button {
+  padding: 17px 33px;
+  background-color: #6689ff;
+  border: none;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+}
+.slider-images button a {
+  color: white;
+  text-decoration: none;
+}
+
+.section-2 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+}
+
+.card-section {
+  display: flex;
+  padding: 25px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card-section .card-1 {
+  background: white;
+  padding: 20px 45px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  margin: 35px;
+  font-size: 30px;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+}
+.card-section .card-1 p {
+  font-size: 16px;
+  margin-top: 35px;
+  font-weight: 500;
+}
+.card-section .card-1 .icon-card1 {
+  font-size: 50px;
+}
+.card-section .card-1 .arrow {
+  display: block;
+  height: 100%;
+  width: 100px;
+  color: gray;
+}
+.card-section .card-1 hr {
+  margin-top: 40px;
+  border: 1px solid rgb(220, 218, 218);
+}
+.card-section .card-1 button {
+  padding: 17px 33px;
+  background-color: #6689ff;
+  border: none;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+.card-section .card-1 button a {
+  text-decoration: none;
+  color: white;
+}
+
+.blue-image {
+  background-image: url(https://livedemo00.template-help.com/wt_51694/images/parallax-1.jpg);
+  min-height: 350px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.blue-image .blue-image-under {
+  height: auto;
+  width: 50%;
+  margin-right: 20px;
+}
+.blue-image .blue-image-under h3 {
+  text-align: right;
+  line-height: 50px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.blue-image .blue-image-under p {
+  text-align: right;
+  margin-right: 20px;
+  line-height: 25px;
+}
+.blue-image .blue-image-under .btn {
+  margin: 20px 10px 10px 10px;
+  text-align: end;
+}
+.blue-image .blue-image-under .btn .btn1 {
+  border: none;
+  font-size: 20px;
+  color: white;
+  margin: 0px 20px 20px 20px;
+  background-color: #6588ff;
+  padding: 15px;
+}
+.blue-image .blue-image-under .btn button {
+  border: 2px solid white;
+  font-size: 20px;
+  color: white;
+  margin: 0px 20px 20px 20px;
+  background: none;
+  padding: 15px;
+}
+.blue-image .blue-image-under .btn button a {
+  text-decoration: none;
+  color: white;
+}
+
+.latestProjects {
+  text-align: center;
+}
+.latestProjects h4 {
+  text-align: center;
+  font-size: 40px;
+  padding: 30px 0;
+}
+.latestProjects p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+.latestProjects button {
+  padding: 15px 40px;
+  font-size: 23px;
+  margin: 30px;
+  background: none;
+  border: 2px solid black;
+}
+.latestProjects button a {
+  text-decoration: none;
+  color: black;
+}
+
+.featuresMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.featuresMain .content_box {
+  height: 350px;
+  width: 400px;
+  margin: 10px;
+}
+.featuresMain .content_box .content_image {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  max-width: 100%;
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+}
+.featuresMain .content_box .content_image .title_content {
+  font-size: 25px;
+  display: flex;
+  background-color: white;
+}
+.featuresMain .content_box .content_image .title_content :hover {
+  color: #6588ff;
+}
+.featuresMain .content_box .content_image .title_content a {
+  text-decoration: none;
+  color: #000;
+}
+.featuresMain .content_box .content_image .title_content i {
+  font-size: 54px;
+  margin: -23px 10px;
+}
+.featuresMain .content_box .content_image .title_content h4 {
+  margin: 3px 10px 7px 1px;
+}
+.featuresMain .content_box .content_image .title_content h4 :hover {
+  color: #98aae8;
+}
+.featuresMain .content_box .content_image .title_content h4 a {
+  color: #6689ff;
+}
+
+.business_statistics .business_statistics_text_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.business_statistics .business_statistics_text_content .ten {
+  padding: 0px 30px 30px 30p;
+}
+.business_statistics .business_statistics_text_content .ten :hover {
+  font-variation-settings: 'wght' 100, 'ital' 0;
+  text-shadow: none;
+}
+.business_statistics .business_statistics_text_content .ten main {
+  transition: all 0.5s;
+  -webkit-text-stroke: 4px #6689ff;
+  font-variation-settings: 'wght' 900, 'ital' 1;
+  font-size: 20rem;
+  text-align: center;
+  color: transparent;
+  font-family: 'Meta', sans-serif;
+  text-shadow: 10px 10px 0px #d7f4f3, 15px 15px 0px #6689ff,
+    20px 20px 0px #98aae8, 25px 25px 0px #99d2ce, 45px 45px 10px #d6f4f4;
+  cursor: pointer;
+  margin-right: 50px;
+}
+.business_statistics .business_statistics_text_content .experience {
+  font-size: 70px;
+  width: 300px;
+  margin: 15px 20px 0px 0px;
+  border-left: 3px solid gray;
+  padding-left: 40px;
+}
+.business_statistics .business_statistics_text_content .bs_under_text {
+  color: gray;
+  padding: 20px;
+  margin: 10px 18px;
+  width: 300px;
+}
+.business_statistics .business_statistics_text_content button {
+  margin: 0px 40px 10px;
+  font-size: 15px;
+  padding: 15px;
+  background-color: #6689ff;
+  border: none;
+}
+.business_statistics .business_statistics_text_content button :hover {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  background: white;
+  border: 2px solid #000;
+  padding: 10px;
+}
+.business_statistics .business_statistics_text_content button a {
+  text-decoration: none;
+  color: white;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 912px) {
+  nav #check:checked ~ ul {
+    left: 0;
+  }
+  nav img {
+    margin: 15px 15px 0px 0px;
+  }
+  nav #checkbtn {
+    display: inline-block;
+  }
+  nav div.navbartext {
+    width: 70%;
+  }
+  nav div.navbartext .navul ul {
+    width: 70%;
+    height: 100vh;
+    position: fixed;
+  }
+  nav div.navbartext .navul ul #shareicon {
+    display: none;
+  }
+  nav div.navbartext .navul ul :hover {
+    background-color: #6588ff;
+  }
+  nav div.navbartext .navul ul :hover a {
+    color: white;
+  }
+  nav div.navbartext .navul ul .active {
+    background-color: #6588ff;
+  }
+  nav div.navbartext .navul ul .active a {
+    color: white;
+  }
+  nav div.navbartext div.icons {
+    width: 100%;
+    font-size: 20px;
+    padding: 30px;
+    margin: 0 10px 0px 0px;
+    border-bottom: 2px solid rgb(158, 157, 157);
+  }
+  nav div.navbartext div.icons :hover {
+    color: #6588ff;
+  }
+  nav div.navbartext div.icons i {
+    width: 40px;
+    color: black;
+  }
+}
+@media (min-width: 912px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav div.LogoBar {
+    display: inline;
+    margin-right: -26px;
+  }
+  nav div.navbartext {
+    display: inline;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  nav div.navbartext #active {
+    border-bottom: 2px solid #6588ff;
+  }
+  nav div.navbartext ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+  }
+  nav div.navbartext ul i {
+    margin: 20px 50px 10px 0px;
+    color: black;
+  }
+  nav div.navbartext ul li :hover {
+    border-bottom: 2px solid #6588ff;
+  }
+} /*# sourceMappingURL=MFRWP.css.map */
