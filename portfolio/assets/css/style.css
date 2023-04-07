@@ -1,0 +1,28 @@
+body {
+  background-image: url(https://bootstrapmade.com/demo/templates/Kelly/assets/img/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body nav {
+  background-color: #e9e8e6;
+  box-shadow: 8px 0px 10px gray;
+  line-height: 42px;
+}
+body nav li:hover {
+  color: #000;
+}
+
+.btn {
+  font-size: 12px;
+  background-color: #34b7a7;
+  padding: 12px 25px;
+}
+.btn a {
+  padding: 10px 10px;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    background-color: black;
+  }
+}/*# sourceMappingURL=style.css.map */
